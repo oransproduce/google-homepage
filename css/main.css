@@ -1,15 +1,8 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
     overflow: hidden;
-}
-
-li {
-	float: right;
-}
-li .material-icons {
-	padding: 18px 10px;
 }
 li a {
 	display: inline-block;
@@ -19,6 +12,24 @@ li a {
 	font-size: 12px;
 	color: #404040
 }
+
+li {
+	float: right;
+}
+li .material-icons {
+	margin: 20px 10px;
+	color: #404040;
+	font-size: 18px;
+}
+
+#notification .material-icons{
+	color: #ffffff;
+	padding: 2px;
+	background-color: #404040;
+	border-radius: 20px;
+
+}
+
 img {
 	width: 300px;
 	height: 90px;
@@ -28,16 +39,28 @@ img {
 form {
 	text-align: center;
 }
-
+#text {
+	font-size: 16px;
+	height: 20px;
+	width: 600px;
+	border: 1px solid #bfbfbf;
+	padding: 7px;
+}
 #navbar {
-	position: fixed;
+	position: absolute;
 	top: 0px;
-
+	right: 20px;
 }
 
-#footer{
-	position: fixed;
+#left{
+	position: absolute;
 	bottom: 0px;
+	left: 0px;
+}
+#right{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
 }
 #main{
 	margin: 200px;
@@ -45,6 +68,10 @@ form {
 #search{
 	margin: 25px;
 }
-#button{
-
+.submit_button {
+	margin-left: 8px;
+	margin-right: 8px;
+	border: 0px;
+	padding: 10px;
+	background-color: #f2f2f2;
 }

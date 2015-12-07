@@ -5,42 +5,45 @@
 	<link href="css/main.css" type="text/css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body>
-	<!--navbar-->
-	<div id="navbar">
-		<ul>
-			<li><span class="material-icons">apps</span></li>
-			<li><a>Images</a></li>
-			<li><a>Gmail</a></li>
-			<li><a>Remy</a></li>
-			
-			<li><img/></li>
-			<li><img/></li>
-		</ul>
-	</div>
-	<div id="main">
-		<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"/>
+	<body>
+		<!--navbar-->
+		<div id="navbar">
+			<ul>
+				<li id="notification"><span class="material-icons">notifications</span></li>
+				<li><span class="material-icons">apps</span></li>
+				<li><a>Images</a></li>
+				<li><a>Gmail</a></li>
 
-		<form>
-			<div id="search">
-				<input type="text" name="username"/>
+			</ul>
+		</div>
+		<div id="main">
+			<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"/>
+
+			<form>
+				<div id="search">
+					<input id="text" type="text" name="username"/>
+				</div>
+				<div id="button">
+					<input class="submit_button" type = "submit" value="Google Search"/>
+					<input class="submit_button" type = "submit" value="I'm Feeling Lucky"/>
+				</div>	
+			</form>
+		</div>
+		<!--footer-->
+			<div id="left">
+				<ul>
+					<li><a>Advertising</a></li>
+					<li><a>Business</a></li>
+					<li><a>About</a></li>
+					
+				</ul>
 			</div>
-			<div id="button">
-				<input type = "submit" value="Google Search"/>
-				<input type = "submit" value="I'm Feeling Lucky"/>
-			</div>	
-		</form>
-	</div>
-	<!--footer-->
-	<div id="footer">
-		<ul>
-			<li class="left"><a>Advertising</a></li>
-			<li class="left"><a>Business</a></li>
-			<li class="left"><a>About</a></li>
-			<li class="right"><a>Privacy</a></li>
-			<li class="right"><a>Terms</a></li>
-			<li class="right"><a>Settings</a></li>
-		</ul>
-	</div>
-</body>
+			<div id="right">
+				<ul>
+					<li><a>Privacy</a></li>
+					<li><a>Terms</a></li>
+					<li><a>Settings</a></li>				
+				</ul>
+			</div>
+	</body>
 </html>
